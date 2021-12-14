@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: sql_store
+    description: "A sample database from mosh's tutorial"
+    database: sql_store
+    schema: sql_store
+    tables:
+      - name: orders
+        description: "Details about the sql store order"
+      - name: customers
+        description: "Details about customers"
